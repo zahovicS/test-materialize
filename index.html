@@ -3,6 +3,12 @@
 <head>
 	<link rel="stylesheet" href="assets/css/materialize.css">
 	<title>Test de Materialize</title>
+	<style type="text/css">
+		.br-red
+		{
+			border: 1px solid red;
+		}
+	</style>
 </head>
 <body>
 	<div class="divider"></div>
@@ -112,24 +118,13 @@
 		<h1 class="center-align">Formatos</h1>
 		<div class="card-panel hoverable">hola este es una carta</div>
 		<div class="divider"></div>
-		<h1 class="center-align">Imganes</h1>
-		<div class="container">
-			<h4 class="center-align">Imagenes responsivas y circular</h4>
-			<div class="col s12 m8 offset-m2 l6 offset-l3">
-		        <div class="card-panel grey lighten-5 z-depth-1">
-		        	<div class="row valign-wrapper">
-		            	<div class="col s2">
-		              		<img src="assets/img/xd.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-		            	</div>
-		            <div class="col s10">
-		              	<span class="black-text">
-		                This is a square image. Add the "circle" class to it to make it appear circular.
-		              	</span>
-		            </div>
-		          </div>
-		        </div>
-		    </div>
-		</div>
+		<h1 class="center-align">Videos</h1>
+		<div class="video-container">
+        	<iframe width="560" height="315" src="https://www.youtube.com/embed/OGjUSyETd1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      	</div>
+      	<video class="responsive-video" controls>
+      		<source src="assets/video/big_buck_bunny.mp4" type="video/mp4">
+      	</video>
 	</div>
 
 <script src="script/materialize.js"></script>
